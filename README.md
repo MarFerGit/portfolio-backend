@@ -1,4 +1,4 @@
-# 💻 Backend Portfolio Project – PHP & MySQL
+# Backend Portfolio Project – PHP & MySQL
 
 This repository is part of my backend development portfolio.
 
@@ -6,7 +6,7 @@ The project consists of a web-based system built with PHP and MySQL, applying Ob
 
 ---
 
-## 👩‍💻 About Me
+## About Me
 
 I am a Junior Web Developer with freelance experience building websites using PHP, WordPress, WooCommerce, and MySQL.
 
@@ -14,7 +14,7 @@ Currently finishing my degree in Systems Analysis and strengthening my backend d
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - PHP
 - MySQL
@@ -37,7 +37,7 @@ Currently finishing my degree in Systems Analysis and strengthening my backend d
 
 ---
 
-## 🚀 How to Run Locally
+## How to Run Locally
 
 1. Clone the repository.
 2. Import the database into MySQL.
@@ -46,7 +46,7 @@ Currently finishing my degree in Systems Analysis and strengthening my backend d
 
 ---
 
-## 📚 Key Learnings
+## Key Learnings
 
 - Implementation of login system using PHP sessions
 - CRUD operations in PHP
