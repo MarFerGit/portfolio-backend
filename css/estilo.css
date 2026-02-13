@@ -1,0 +1,138 @@
+* {
+    margin:0;
+    padding:0;
+  }
+  body {
+    font-size:62.5%;
+    background:#fdfbfb;
+    color:rgb(12, 11, 11);
+    font-family: Helvetica;
+  }
+  .content {
+    max-width: 95%;
+    margin:0 auto;
+    font-size:2.5em;
+  }
+  
+  h1 {
+    color:rgb(0, 68, 255);
+    text-align: center;
+    margin: 0.25em auto;
+    font-size:0.95em;
+  }
+  header, 
+  nav,
+  footer {
+    background-color: rgba(0, 68, 255, 0.226);
+    border-radius: .1em;
+    margin: 0.5em auto;
+    
+    padding: 0.25em;
+    text-align: center;
+  }
+  nav ul, li{
+    display: inline-block;
+    list-style: none;
+  }
+
+  nav a:link{
+    text-decoration: lightseagreen;
+  }
+  nav a:visited {
+    color:rgba(0, 68, 255, 0.226);
+}
+    nav a:hover {
+    color:#4ced4c;
+    }
+    nav a:active {
+    color:aqua;
+}
+
+  #content {
+    margin: 0 auto;
+    
+    padding: 0;
+    text-align: center;
+  }
+  
+  #principal {
+    background-color: #aae7aa;
+    border-radius: .1em;
+    display: inline-block;
+    margin: 0 auto;
+    min-height: 200px;
+    padding: .5em 0;
+    text-align: center;
+    vertical-align: top;
+    width: 96%;
+  }
+  #principal, table, th{
+    border:solid  1px #c1cfc1;
+    border-collapse: collapse;
+    padding: .7em .5em .7em .5em;
+    font-size: 90%;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: top;
+    background-color: #d7eed9;
+  }
+  table{
+    vertical-align: top;
+    margin: 0px auto;
+    width: 90%;
+    background-color: #d7eed9;
+  }
+  #principal th{
+    background-color: rgba(214, 210, 210, 0.842);
+  }
+  td{
+    font-weight: lighter;
+    font-size: 0.98em;
+    border:solid  1px #c1cfc1;
+    border-collapse: collapse;
+ }
+  article {
+    background-color:rgb(243, 239, 239);
+    border-radius: .1em;
+    min-height: 140px;
+    padding: .25em;
+    margin:0 1em;
+    vertical-align: top;
+  }
+
+  #ingreso {
+    margin: 0px auto;
+    width: 500px;
+    max-width: 400px;
+  }
+
+ header .flexbox-container {
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+    font-size: 0.98em;
+}
+
+header .flexbox-container > div {
+	width: 50%;
+	padding: 10px;
+    font-size: 0.98em;
+}
+
+header .flexbox-container > div:first-child {
+	margin-right: 10px;
+    font-size: 0.98em;
+}
+
+  /* MEDIA QUERY */
+  @media screen and (min-width: 44em) {
+    h1 {
+      font-size:1.5em;
+    }
+    #principal {
+      width: 98%;
+      font-size: 90%;
+    }
+
+  }
+  

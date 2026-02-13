@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], [type=number], [type=password], select, textarea {
+    width: 95%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #d7eed9;
+    padding: 20px;
+    vertical-align: top;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 70%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  form button {
+    display: block;
+    background-color: #064bb1 ;
+    padding: 10px 45px 10px 45px;
+    border: 0;
+    font-size: 0.89em; 
+    color:white;
+    font-family: "Roboto", sans-serif;
+    margin: 0 auto;
+}
+form button:hover{
+    background-color: #0867f5;
+}
+textarea {  resize: none;}
+
+.boton{
+  display: inline-block;
+  background-color: #14aa14;
+  padding: 10px 25px 10px 25px;
+  border: 0;
+  font-size: 0.58em; 
+  color: 	white;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  border-radius: 1.2em;
+ }
+ .boton:hover{
+  background-color: #0a520a ;
+ }
+
+ .notasbtn{
+  display: inline-block;
+  background-color: #1462aa;
+  padding: 10px 25px 10px 25px;
+  border: 0;
+  font-size: 0.58em; 
+  color: 	white;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  border-radius: 1.2em;
+ }
+ .notasbtn:hover{
+  background-color: #197cda ;
+ }
+
+ .editarbtn{
+  display: inline-block;
+  background-color: #e6d010;
+  padding: 10px 25px 10px 25px;
+  border: 0;
+  font-size: 0.58em; 
+  color: 	rgb(14, 13, 13);
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  border-radius: 1.2em;
+ }
+ .editarbtn:hover{
+  background-color: #f7e014 ;
+ }
+
+ .eliminarbtn{
+  display: inline-block;
+  background-color: #ac0404;
+  padding: 10px 25px 10px 25px;
+  border: 0;
+  font-size: 0.58em; 
+  color: 	white;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  border-radius: 1.2em;
+ }
+ .eliminarbtn:hover{
+  background-color: #cc0707 ;
+ }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 95%;
+      margin-top: 0;
+    }
+  }
